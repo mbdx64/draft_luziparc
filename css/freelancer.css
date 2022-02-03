@@ -153,6 +153,15 @@ header .intro-text .skills {
   font-weight: 700;
   background-color: rgb(48, 105, 48);
 }
+.navbar-default {
+  font-family: 'Roboto', 'Montserrat', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  background-color: rgb(48, 105, 48);
+  font-size: 1.35em;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
 
 .navbar a:focus {
   outline: none;
@@ -180,7 +189,7 @@ section {
 
 section h2 {
   margin: 0;
-  font-size: 3em;
+  font-size: 4rem;
   margin-bottom: 60px;
 }
 
@@ -237,12 +246,31 @@ section.success .social a {
   margin: 8px;
 }
 
-.Formule_intro {
-  background-color: rgb(48, 105, 48);
-  max-width: 40vw;
-  padding: 0 10px;
-  margin: 10px;
+.luzi-card {
+  color: white;
+  padding: 25px;
   border-radius: 10px;
+  margin: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px; */
+}
+.luzi-card p,
+.luzi-card h3 {
+  color: white;
+}
+.luzi-card-bg-green {
+  background-color: rgb(48, 105, 48);
+}
+
+.luzi-card-bg-orange {
+  background-color: rgb(141, 100, 10);
+}
+
+.luzi-card-bg-blue {
+  background-color: rgb(33, 52, 228);
 }
 
 /* mise en forme flex anniversaire */
@@ -256,30 +284,6 @@ section.success .social a {
   /* margin: auto; */
   text-align: center;
   margin: 8px;
-}
-
-.anniversaire {
-  max-width: 40vw;
-  padding: 0 10px;
-  margin: 8px 0;
-  border-radius: 10px;
-  position: relative;
-  top: 40px;
-}
-
-.Anniversaire_Luzi {
-  background-color: green;
-  margin: 8px 0;
-}
-
-.Anniversaire_Maison_1 {
-  background-color: orangered;
-  margin: 8px 0;
-}
-
-.Anniversaire_Maison_2 {
-  background-color: blue;
-  margin: 8px 0;
 }
 
 /* mise en forme tableau anniversaire */
@@ -314,9 +318,9 @@ section.success .social a {
 
 .btn-outline:hover,
 .btn-outline:focus,
-.btn-outline:active,
+.btn-outline:active:focus,
 .btn-outline.active {
-  color: #000000;
+  color: rgba(182, 69, 35, 1) !important;
   background: white;
   border: solid 2px white;
 }
@@ -441,4 +445,65 @@ footer .footer-below {
 
 .scroll-top .btn:focus {
   outline: none;
+}
+
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+.flex-column {
+  flex-direction: column;
+}
+.space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-strech {
+  align-items: stretch;
+}
+.vw-100 {
+  width: 100vw;
+}
+.flag {
+  display: block;
+  position: relative;
+  height: 22px;
+  width: 30px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.flag-es {
+  background-image: url('/img/es.svg');
+}
+.flag-fr {
+  background-image: url('/img/fr.svg');
+}
+.flag-gb {
+  background-image: url('/img/gb.svg');
+}
+.postion-fixed {
+  position: fixed;
+}
+.bottom-0 {
+  bottom: 0;
+}
+.top-0 {
+  top: 0;
+}
+.right-0 {
+  right: 0;
+}
+.opacity-75 {
+  opacity: 0.75;
 }
