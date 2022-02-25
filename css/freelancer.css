@@ -144,12 +144,12 @@ header .intro-text .skills {
     font-family: 'Roboto', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    background-color: rgb(48, 105, 48);
+    background-color: rgba(182, 69, 35, 1);
 }
 
 .navbar-default {
     font-family: 'Roboto', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: rgb(48, 105, 48);
+    background-color: rgba(182, 69, 35, 1);
     font-size: 1.35em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -176,8 +176,8 @@ header .intro-text .skills {
 section {
     padding: 100px 0;
     text-align: justify;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
 }
 
 section h2 {
@@ -251,11 +251,6 @@ section.success .social a {
     rgb(255, 85, 85) 0px 0px 0px 15px; */
 }
 
-.luzi-card p,
-.luzi-card h3 {
-    color: white;
-}
-
 .luzi-card-bg-green {
     background-color: rgb(48, 105, 48);
 }
@@ -266,6 +261,11 @@ section.success .social a {
 
 .luzi-card-bg-blue {
     background-color: rgb(33, 52, 228);
+}
+
+.luzi-card-main {
+    background-color: yellow;
+    color: brown;
 }
 
 
@@ -512,4 +512,26 @@ footer .footer-below {
 
 .opacity-75 {
     opacity: 0.75;
+}
+
+.z-index-max {
+    z-index: 99999999999;
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.social {
+    color: white
+}
+
+.price {
+    font-weight: bold;
 }
