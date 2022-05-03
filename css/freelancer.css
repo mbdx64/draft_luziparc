@@ -198,8 +198,8 @@ section.success {
 
 section.white {
     background-color: whitesmoke;
-    background-image: url(../img/liane.png);
-    background: no-repeat bottom/25% url(../img/liane.png);
+    /* background-image: url(../img/liane.png);
+    background: no-repeat bottom/25% url(../img/liane.png); */
     background-position: top left;
 }
 
