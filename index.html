@@ -31,6 +31,10 @@
     />
     <link href="css/google.font.css" rel="stylesheet" type="text/css" />
     <link href="css/google.font.italic.css" rel="stylesheet" type="text/css" />
+
+    <!-- carousel js -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
   </head>
 
   <body id="page-top" class="index">
@@ -124,7 +128,7 @@
         </div>
         <div class="row">
           <div class="flex flex-wrap">
-            <div class="col-lg-6 col-md-12">
+            <div class="col-md-6 col-xs-12">
               <div class="luzi-card luzi-card-main page-scroll">
                 <a href="#preparer">
                   <div class="Formule_classique">
@@ -142,7 +146,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-6 col-md-12">
+            <div class="col-md-6 col-xs-12">
               <div class="luzi-card luzi-card-main page-scroll">
                 <a href="#anniversaire">
                   <div class="Formule_anniversaire">
@@ -362,23 +366,55 @@
             <!-- <hr class="star-primary"> -->
           </div>
         </div>
+
+        <!-- <div class="your-class">
+            <div>your content</div>
+            <div>your content</div>
+            <div>your content</div>
+          </div> -->
+
         <div class="row">
-          <p>
-            <a href="img/photo1.jpeg"><img src="img/photo1_mini.jpg" /></a>
-            <a href="img/photo2.jpeg"><img src="img/photo2_mini.jpg" /></a>
-            <a href="img/photo3.jpeg"><img src="img/photo3_mini.jpg" /></a>
-            <a href="img/photo4.jpeg"><img src="img/photo4_mini.jpg" /></a>
-            <a href="img/photo5.jpeg"><img src="img/photo5_mini.jpg" /></a>
-            <a href="img/photo6.jpeg"><img src="img/photo6_mini.jpg" /></a>
-            <a href="img/photo7.jpeg"><img src="img/photo7_mini.jpg" /></a>
-            <a href="img/photo8.jpeg"><img src="img/photo8_mini.jpg" /></a>
-            <a href="img/photo9.jpeg"><img src="img/photo9_mini.jpg" /></a>
-            <a href="img/photo10.jpeg"><img src="img/photo10_mini.jpg" /></a>
-            <a href="img/photo11.jpeg"><img src="img/photo11_mini.jpg" /></a>
-            <a href="img/photo12.jpeg"><img src="img/photo12_mini.jpg" /></a>
-            <a href="img/photo13.jpeg"><img src="img/photo13_mini.jpg" /></a>
-            <a href="img/photo14.jpeg"><img src="img/photo14_mini.jpg" /></a>
-          </p>
+          <div class="carousel-photo">
+            <div class="luzi-card">
+              <a href="img/photo1.jpeg"><img src="img/photo1_mini.jpg" /></a>
+            </div>
+            <div class="luzi-card">
+              <a href="img/photo2.jpeg"><img src="img/photo2_mini.jpg" /></a>
+            </div>
+            <div class="luzi-card">
+              <a href="img/photo3.jpeg"><img src="img/photo3_mini.jpg" /></a>
+            </div>
+            <div class="luzi-card">
+              <a href="img/photo4.jpeg"><img src="img/photo4_mini.jpg" /></a>
+            </div>
+            <div class="luzi-card">
+              <a href="img/photo5.jpeg"><img src="img/photo5_mini.jpg" /></a>
+            </div>
+
+            <div class="luzi-card">
+              <a href="img/photo6.jpeg"><img src="img/photo6_mini.jpg" /></a>
+            </div>
+            <div class="luzi-card">
+              <a href="img/photo7.jpeg"><img src="img/photo7_mini.jpg" /></a>
+            </div>
+            <div class="luzi-card">
+              <a href="img/photo8.jpeg"><img src="img/photo8_mini.jpg" /></a>
+            </div>
+            <div class="luzi-card">
+              <a href="img/photo9.jpeg"><img src="img/photo9_mini.jpg" /></a>
+            </div>
+            <div class="luzi-card">
+              <a href="img/photo10.jpeg"><img src="img/photo10_mini.jpg" /></a>
+            </div>
+            <div class="luzi-card">
+              <a href="img/photo11.jpeg"><img src="img/photo11_mini.jpg" /></a>
+            </div>
+            <div class="luzi-card">
+              <a href="img/photo12.jpeg"><img src="img/photo12_mini.jpg" /></a>
+            </div>
+            <!-- <a href="img/photo13.jpeg"><img src="img/photo13_mini.jpg" /></a>
+            <a href="img/photo14.jpeg"><img src="img/photo14_mini.jpg" /></a> -->
+          </div>
         </div>
       </div>
     </section>
@@ -685,5 +721,47 @@
 
     <!-- Google Analytics -->
     <script src="js/ga.js"></script>
+
+    <!-- carousel JS -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <!-- script carousel -->
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".carousel-photo").slick({
+          dots: true,
+          arrows: false,
+          centerMode: true,
+          centerPadding: "60px",
+          slidesToShow: 3,
+          variableWidth: true,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                centerPadding: "40px",
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                centerPadding: "40px",
+                slidesToShow: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
   </body>
 </html>

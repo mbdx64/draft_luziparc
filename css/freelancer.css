@@ -1,6 +1,3 @@
-html {
-  scroll-snap-type: y proximity;
-}
 body {
   overflow-x: hidden;
 
@@ -178,13 +175,9 @@ header .intro-text .skills {
   border: none;
 }
 
-section,
-header {
-  padding: 100px 0;
+section {
+  padding: 100px;
   text-align: justify;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  scroll-snap-align: start;
 }
 
 section h2 {
@@ -247,6 +240,8 @@ section.success .social a {
 }
 
 .luzi-card {
+  width: auto !important;
+  margin: auto;
   color: white;
   padding: 25px;
   border-radius: 10px;
@@ -262,6 +257,7 @@ section.success .social a {
 .luzi-card-secondary p {
   font-size: 2.3rem;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .luzi-card-bg-green {
@@ -316,7 +312,7 @@ section.success .social a {
     padding: 0;
   }
   section {
-    padding: 75px 0;
+    padding: 75px 20px;
   }
   section.first {
     padding-top: 75px;
