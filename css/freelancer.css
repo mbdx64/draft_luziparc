@@ -253,8 +253,7 @@ section.success .social a {
     rgb(255, 85, 85) 0px 0px 0px 15px; */
 }
 
-.luzi-card-main p,
-.luzi-card-secondary p {
+.luzi-card-main p {
   font-size: 2.3rem;
   letter-spacing: 2px;
   text-align: center;
@@ -274,12 +273,8 @@ section.success .social a {
 
 .luzi-card-main {
   background-color: yellow;
-  color: brown;
-}
-
-.luzi-card-secondary {
-  background-color: #d16c4e63;
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 
 /* mise en forme flex anniversaire */
@@ -326,12 +321,15 @@ section.success .social a {
 }
 
 .btn-outline {
-  color: white;
+  color: red;
   font-size: 20px;
   border: solid 2px white;
-  background: transparent;
+  background: white;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
+}
+a.btn.btn-outline {
+  color: rgba(182, 69, 35, 1);
 }
 
 .btn-outline:hover,
@@ -400,10 +398,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-  color: red;
+  color: rgba(182, 69, 35, 1);
   background-image: url(../img/stickers_savane.png);
   background: no-repeat bottom/100% url(../img/stickers_savane.png);
   margin: 0;
+  font-weight: bold;
 }
 
 footer h3 {
@@ -555,4 +554,8 @@ footer .footer-below {
 
 .price {
   font-weight: bold;
+}
+
+.color-red {
+  color: red !important;
 }
