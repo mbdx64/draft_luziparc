@@ -208,7 +208,7 @@ section.success a:hover,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
-  color: white;
+  color: black;
   outline: none;
 }
 
@@ -260,15 +260,24 @@ section.success .social a {
 }
 
 .luzi-card-bg-green {
-  background-color: rgb(48, 105, 48);
+  /* background-color: rgb(48, 105, 48); */
+  background-image: url(../img/balles-jaunes.jpg);
+  color: black;
+  background-size: cover;
 }
 
 .luzi-card-bg-orange {
-  background-color: rgb(141, 100, 10);
+  /* background-color: rgb(141, 100, 10); */
+  background-image: url(../img/balles-bleues.jpg);
+  color: black;
+  background-size: cover;
 }
 
 .luzi-card-bg-blue {
-  background-color: rgb(33, 52, 228);
+  /* background-color: rgb(33, 52, 228); */
+  background-image: url(../img/balles-white.jpg);
+  color: black;
+  background-size: cover;
 }
 
 .luzi-card-main {
