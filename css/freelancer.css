@@ -264,6 +264,7 @@ section.success .social a {
   background-image: url(../img/balles-jaunes.jpg);
   color: black;
   background-size: cover;
+  font-weight: bold;
 }
 
 .luzi-card-bg-orange {
@@ -271,6 +272,7 @@ section.success .social a {
   background-image: url(../img/balles-bleues.jpg);
   color: black;
   background-size: cover;
+  font-weight: bold;
 }
 
 .luzi-card-bg-blue {
@@ -278,6 +280,7 @@ section.success .social a {
   background-image: url(../img/balles-pink.jpg);
   color: black;
   background-size: cover;
+  font-weight: bold;
 }
 
 .luzi-card-main {
