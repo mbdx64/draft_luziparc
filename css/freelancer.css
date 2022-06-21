@@ -352,6 +352,11 @@ a.btn.btn-outline {
   background: white;
   border: solid 2px white;
 }
+.btn-primary {
+  color: white;
+  background: rgba(182, 69, 35, 1);
+  border: solid 2px rgba(182, 69, 35, 1);
+}
 
 .floating-label-form-group {
   position: relative;
