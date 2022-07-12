@@ -122,7 +122,7 @@
         <div class="row" href="#page-top">
           <img
             class="img-responsive"
-            src="img/logo_luziparc.png"
+            src="./img/logo_luziparc.png"
             alt=""
             style="width: 50%; min-width: 300px"
           />
@@ -440,7 +440,7 @@
             <div class="col-xs-12">
               <div class="flex-grow">
                 <a
-                  href="img/anniversaire_invitations.pdf"
+                  href="./img/anniversaire_invitations.pdf"
                   target="_blank"
                   class="btn btn-lg btn-primary"
                 >
@@ -450,7 +450,7 @@
               <div class="flex-grow">
                 <p><br /></p>
                 <a
-                  href="img/Brochure_anniversaire_Luzi.pdf"
+                  href="./img/Brochure_anniversaire_Luzi.pdf"
                   target="_blank"
                   class="btn btn-lg btn-primary flex-grow"
                 >
@@ -476,7 +476,7 @@
           <br />
           <!-- <p>
             Vous pouvez trouver
-            <a href="img/Brochure_anniversaire_Luzi.pdf" target="_blank"
+            <a href="./img/Brochure_anniversaire_Luzi.pdf" target="_blank"
               >ici le détails des offres anniversaires
             </a>
           </p> -->
@@ -498,44 +498,68 @@
         <div class="row">
           <div class="carousel-photo">
             <div class="luzi-card">
-              <a href="img/photo1.jpeg"><img src="img/photo1_mini.jpg" /></a>
+              <a href="./img/photo1.jpeg"
+                ><img src="./img/photo1_mini.jpg"
+              /></a>
             </div>
             <div class="luzi-card">
-              <a href="img/photo2.jpeg"><img src="img/photo2_mini.jpg" /></a>
+              <a href="./img/photo2.jpeg"
+                ><img src="./img/photo2_mini.jpg"
+              /></a>
             </div>
             <div class="luzi-card">
-              <a href="img/photo3.jpeg"><img src="img/photo3_mini.jpg" /></a>
+              <a href="./img/photo3.jpeg"
+                ><img src="./img/photo3_mini.jpg"
+              /></a>
             </div>
             <div class="luzi-card">
-              <a href="img/photo4.jpeg"><img src="img/photo4_mini.jpg" /></a>
+              <a href="./img/photo4.jpeg"
+                ><img src="./img/photo4_mini.jpg"
+              /></a>
             </div>
             <div class="luzi-card">
-              <a href="img/photo5.jpeg"><img src="img/photo5_mini.jpg" /></a>
+              <a href="./img/photo5.jpeg"
+                ><img src="./img/photo5_mini.jpg"
+              /></a>
             </div>
 
             <div class="luzi-card">
-              <a href="img/photo6.jpeg"><img src="img/photo6_mini.jpg" /></a>
+              <a href="./img/photo6.jpeg"
+                ><img src="./img/photo6_mini.jpg"
+              /></a>
             </div>
             <div class="luzi-card">
-              <a href="img/photo7.jpeg"><img src="img/photo7_mini.jpg" /></a>
+              <a href="./img/photo7.jpeg"
+                ><img src="./img/photo7_mini.jpg"
+              /></a>
             </div>
             <div class="luzi-card">
-              <a href="img/photo8.jpeg"><img src="img/photo8_mini.jpg" /></a>
+              <a href="./img/photo8.jpeg"
+                ><img src="./img/photo8_mini.jpg"
+              /></a>
             </div>
             <div class="luzi-card">
-              <a href="img/photo9.jpeg"><img src="img/photo9_mini.jpg" /></a>
+              <a href="./img/photo9.jpeg"
+                ><img src="./img/photo9_mini.jpg"
+              /></a>
             </div>
             <div class="luzi-card">
-              <a href="img/photo10.jpeg"><img src="img/photo10_mini.jpg" /></a>
+              <a href="./img/photo10.jpeg"
+                ><img src="./img/photo10_mini.jpg"
+              /></a>
             </div>
             <div class="luzi-card">
-              <a href="img/photo11.jpeg"><img src="img/photo11_mini.jpg" /></a>
+              <a href="./img/photo11.jpeg"
+                ><img src="./img/photo11_mini.jpg"
+              /></a>
             </div>
             <div class="luzi-card">
-              <a href="img/photo12.jpeg"><img src="img/photo12_mini.jpg" /></a>
+              <a href="./img/photo12.jpeg"
+                ><img src="./img/photo12_mini.jpg"
+              /></a>
             </div>
-            <!-- <a href="img/photo13.jpeg"><img src="img/photo13_mini.jpg" /></a>
-            <a href="img/photo14.jpeg"><img src="img/photo14_mini.jpg" /></a> -->
+            <!-- <a href="./img/photo13.jpeg"><img src="./img/photo13_mini.jpg" /></a>
+            <a href="./img/photo14.jpeg"><img src="./img/photo14_mini.jpg" /></a> -->
           </div>
         </div>
       </div>
@@ -554,7 +578,7 @@
           <div class="col-lg-8 col-lg-offset-2">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <form name="sentMessage" id="contactForm" novalidate>
+            <form action="./mail/contact_me.php" method="POST">
               <div class="row control-group">
                 <div
                   class="form-group col-xs-12 floating-label-form-group controls"
@@ -564,7 +588,7 @@
                     type="text"
                     class="form-control"
                     placeholder="Name"
-                    id="name"
+                    name="name"
                     required
                     data-validation-required-message="Entrez votre nom et prénom."
                   />
@@ -580,7 +604,7 @@
                     type="email"
                     class="form-control"
                     placeholder="Email"
-                    id="email"
+                    name="email"
                     required
                     data-validation-required-message="Entrez votre adresse email."
                   />
@@ -596,7 +620,7 @@
                     type="tel"
                     class="form-control"
                     placeholder="Phone"
-                    id="phone"
+                    name="phone"
                     required
                     data-validation-required-message="Entrez votre téléphone."
                   />
@@ -612,7 +636,7 @@
                     type="text"
                     class="form-control"
                     placeholder="City"
-                    id="CP"
+                    name="ville"
                     required
                     data-validation-required-message="Entrez votre code postal et ville."
                   />
@@ -628,7 +652,7 @@
                     rows="5"
                     class="form-control"
                     placeholder="Message"
-                    id="message"
+                    name="message"
                     required
                     data-validation-required-message="Entrez un message."
                   ></textarea>
@@ -722,10 +746,6 @@
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
 
@@ -747,25 +767,25 @@
 
     <script type="text/javascript">
       $(document).ready(function () {
-        $(".carousel-photo").slick({
+        $('.carousel-photo').slick({
           dots: true,
           arrows: false,
           centerMode: true,
-          centerPadding: "60px",
+          centerPadding: '60px',
           slidesToShow: 3,
           variableWidth: true,
           responsive: [
             {
               breakpoint: 768,
               settings: {
-                centerPadding: "40px",
+                centerPadding: '40px',
                 slidesToShow: 3,
               },
             },
             {
               breakpoint: 480,
               settings: {
-                centerPadding: "40px",
+                centerPadding: '40px',
                 slidesToShow: 1,
               },
             },
