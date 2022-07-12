@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", "Montserrat", "Helvetica Neue", Helvetica, Arial,
+  font-family: 'Roboto', 'Montserrat', 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -94,7 +94,7 @@ header img {
 
 header .intro-text .name {
   display: block;
-  font-family: "Roboto", "Montserrat", "Helvetica Neue", Helvetica, Arial,
+  font-family: 'Roboto', 'Montserrat', 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -141,7 +141,7 @@ header .intro-text .skills {
 }
 
 .navbar {
-  font-family: "Roboto", "Montserrat", "Helvetica Neue", Helvetica, Arial,
+  font-family: 'Roboto', 'Montserrat', 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -149,7 +149,7 @@ header .intro-text .skills {
 }
 
 .navbar-default {
-  font-family: "Roboto", "Montserrat", "Helvetica Neue", Helvetica, Arial,
+  font-family: 'Roboto', 'Montserrat', 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
   background-color: rgba(182, 69, 35, 1);
   font-size: 1.35em;
@@ -520,15 +520,15 @@ footer .footer-below {
 }
 
 .flag-es {
-  background-image: url("/img/es.svg");
+  background-image: url('../img/es.svg');
 }
 
 .flag-fr {
-  background-image: url("/img/fr.svg");
+  background-image: url('../img/fr.svg');
 }
 
 .flag-gb {
-  background-image: url("/img/gb.svg");
+  background-image: url('../img/gb.svg');
 }
 
 .postion-fixed {
