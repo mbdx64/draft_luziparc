@@ -5,16 +5,4 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-<url>
-  <loc>http://sami.ghazouane.io/</loc>
-  <lastmod>2016-05-12T04:55:19+00:00</lastmod>
-</url>
-<url>
-  <loc>http://sami.ghazouane.io/blog/</loc>
-  <lastmod>2016-05-10T05:57:24+00:00</lastmod>
-</url>
-<url>
-  <loc>http://sami.ghazouane.io/assets/cv.pdf</loc>
-  <lastmod>2016-05-10T04:10:38+00:00</lastmod>
-</url>
 </urlset>
